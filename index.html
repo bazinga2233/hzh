@@ -5,9 +5,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>The Witcher 3: Wild Hunt</title>
+  <title>巫师3：狂猎</title>
   <!-- MDB icon -->
-  <link rel="icon" href="img/handle.ico" type="image/x-icon">
+  <link rel="icon" href="img/icon.ico" type="image/x-icon">
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
   <!-- Bootstrap core CSS -->
@@ -15,7 +15,7 @@
   <!-- Material Design Bootstrap -->
   <link rel="stylesheet" href="css/mdb.min.css">
   <!-- Your custom styles (optional) -->
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/witcher.css">
 </head>
 
 <body>
@@ -24,7 +24,7 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
       <div class="container">
-        <a class="navbar-brand" href="#">The Witcher 3: Wild Hunt</a>
+        <a class="navbar-brand" href="#">巫师3：狂猎</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
           aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -75,10 +75,13 @@
     <!-- Navbar -->
     <!-- Full Page Intro -->
     <div class="view">
-      <video class="video" poster="https://mdbootstrap.com/img/Photos/Others/background.jpg" playsinline autoplay muted
+      <video class="video" poster="img/index-1.jpg" playsinline autoplay muted
         loop>
-        <source src="index.mp4" type="video/mp4">
+        <source src="witcher.mp4" type="video/mp4">
       </video>
+      <audio autoplay="autoplay" controls="controls"loop="loop" preload="auto"
+            	src="witcher.mp3">    
+	    </audio>
       <!-- Mask & flexbox options-->
       <div class=" mask rgba-black-strong d-flex justify-content-center align-items-center">
         <!-- Content -->
@@ -318,7 +321,6 @@
                     <img class="d-block w-100" src="img/10.jpg" alt="Fourth slide">
                     <div class="mask rgba-black-light"></div>
                   </div>
-
                 </div>
               </div>
               <!--/.Slides-->
@@ -390,12 +392,12 @@
                 <div class="testimonial">
                   <!--Avatar-->
                   <div class="avatar mx-auto">
-                    <img src="img/11.jfif"
+                    <img src="img/11.jpg"
                       class="rounded-circle img-fluid">
                   </div>
                   <!--Content-->
                   <h4 class="font-weight-bold mt-4">杰洛特</h4>
-                  <p class="font-weight-normal"><i class="fas fa-quote-left pr-2"></i>游戏主人公，利维亚的杰洛特是一名猎魔人，在上古语中，他被称为“格温布雷德”，意为“白狼”。他身手敏捷，但同时又深不可测。他拥有超乎常人的力量和速度。</p>
+                  <p class="font-weight-normal"><i class="fas fa-quote-left pr-2"></i>游戏主人公，利维亚的杰洛特是一名猎魔人，在上古语中，他被称为“格温布雷德”，意为“白狼”。他身手敏捷，但同时又深不可测。他拥有超乎常人的力量和速度。<i class="fas fa-quote-right pr-2"></i></p>
                   <!--Review-->
                   
                 </div>
@@ -407,13 +409,13 @@
                 <div class="testimonial">
                   <!--Avatar-->
                   <div class="avatar mx-auto">
-                    <img src="img/12.jfif"
+                    <img src="img/12.jpg"
                       class="rounded-circle img-fluid">
                   </div>
                   <!--Content-->
                   <h4 class="font-weight-bold mt-4">希里雅</h4>
                   <p class="font-weight-normal"><i class="fas fa-quote-left pr-2"></i>希里是一位技艺精湛的猎魔人，好几个皇位的继承人，上古之血的最后传承者，无与伦比的魔法之源。
-                    她是杰洛特通过意外获得的养女，两人被命运的枷锁紧紧羁绊在一起。</p>
+                    她是杰洛特通过意外获得的养女，两人被命运的枷锁紧紧羁绊在一起。<i class="fas fa-quote-right pr-2"></i></p>
                   <!--Review-->
                 </div>
               </div>
@@ -424,13 +426,13 @@
                 <div class="testimonial">
                   <!--Avatar-->
                   <div class="avatar mx-auto">
-                    <img src="img/13.jfif"
+                    <img src="img/13.jpg"
                       class="rounded-circle img-fluid">
                   </div>
                   <!--Content-->
                   <h4 class="font-weight-bold mt-4">叶奈法</h4>
                   <p class="font-weight-normal"><i class="fas fa-quote-left pr-2"></i>叶奈法是一位来自亚甸首都温格堡的女术士，她是术士评议会以及其后的女术士集会所成员。
-                    她是杰洛特的挚爱，也担当了希瑞养母的角色。</p>
+                    她是杰洛特的挚爱，也担当了希瑞养母的角色。<i class="fas fa-quote-right pr-2"></i></p>
                   <!--Review-->
                 </div>
               </div>
@@ -447,13 +449,13 @@
                 <div class="testimonial">
                   <!--Avatar-->
                   <div class="avatar mx-auto">
-                    <img src="img/14.jfif"
+                    <img src="img/14.jpg"
                       class="rounded-circle img-fluid">
                   </div>
                   <!--Content-->
                   <h4 class="font-weight-bold mt-4">特莉丝·梅莉葛德</h4>
                   <p class="font-weight-normal"><i class="fas fa-quote-left pr-2"></i>特莉丝·梅莉葛德曾经是弗尔泰斯特国王的前任宫廷顾问，索登山之战的著名英雄、人称山顶第十四人。
-                    她拥有聪慧的头脑、温暖的微笑，以及无与伦比的个人魅力。</p>
+                    她拥有聪慧的头脑、温暖的微笑，以及无与伦比的个人魅力。<i class="fas fa-quote-right pr-2"></i></p>
                   <!--Review-->
                 </div>
               </div>
@@ -464,14 +466,13 @@
                 <div class="testimonial">
                   <!--Avatar-->
                   <div class="avatar mx-auto">
-                    <img src="img/15.png"
+                    <img src="img/15.jpg"
                       class="rounded-circle img-fluid">
                   </div>
                   <!--Content-->
                   <h4 class="font-weight-bold mt-4">艾瑞汀</h4>
-                  <h6 class="blue-text font-weight-bold my-3">Front-end developer</h6>
                   <p class="font-weight-normal"><i class="fas fa-quote-left pr-2"></i>狂猎之王，
-                    在游戏中他所率领的狂猎军团带来了死亡与毁灭，并持续寻找希里的下落与踪迹。</p>
+                    在游戏中他所率领的狂猎军团带来了死亡与毁灭，并持续寻找希里的下落与踪迹。<i class="fas fa-quote-right pr-2"></i></p>
                   <!--Review-->
                 </div>
               </div>
@@ -482,12 +483,12 @@
                 <div class="testimonial">
                   <!--Avatar-->
                   <div class="avatar mx-auto">
-                    <img src="img/16.jfif"
+                    <img src="img/16.jpg"
                       class="rounded-circle img-fluid">
                   </div>
                   <!--Content-->
                   <h4 class="font-weight-bold mt-4">维瑟米尔</h4>
-                  <p class="font-weight-normal"><i class="fas fa-quote-left pr-2"></i>维瑟米尔是全大陆资格最老、最有经验的狩魔猎人，最后的狼学派大师。在故事中维瑟米尔加入了杰洛特的行列，与他一同跨越战争肆虐的泰莫利亚，寻找叶妮法的踪迹。</p>
+                  <p class="font-weight-normal"><i class="fas fa-quote-left pr-2"></i>维瑟米尔是全大陆资格最老、最有经验的狩魔猎人，最后的狼学派大师。在故事中维瑟米尔加入了杰洛特的行列，与他一同跨越战争肆虐的泰莫利亚，寻找叶妮法的踪迹。<i class="fas fa-quote-right pr-2"></i></p>
                   <!--Review-->
                 </div>
               </div>
@@ -512,7 +513,7 @@
 
     <!--Section: call to action-->
     <div class="streak streak-md streak-photo"
-      style="background-image:url(img/17.jfif)">
+      style="background-image:url(img/17.jpg)">
       <div class="flex-center white-text rgba-black-light pattern-1">
         <ul class="mb-0 list-unstyled">
           <li>
